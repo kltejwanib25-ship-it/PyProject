@@ -1,0 +1,30 @@
+.....                                                                    [100%]
+=============================== warnings summary ===============================
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:64
+  /root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85
+  /root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89
+  /root/.local/lib/python3.12/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+../../../../root/.local/lib/python3.12/site-packages/matplotlib/_mathtext.py:45
+  /root/.local/lib/python3.12/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+5 passed, 14 warnings in 11.29s
